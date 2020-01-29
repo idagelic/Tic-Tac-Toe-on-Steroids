@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  float: left;
+  font-weight: 800;
+  background-color: #f2f2f2;
+  border: 1px solid #575757;
+}
+
+.cell:hover {
+  background-color: white;
+}
+
+.grid {
+  width: 180px;
+  height: 180px;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+  font-weight: 600;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.board {
+  width: 604px;
+  height: 604px;
+  float: left;
+  margin-top: 120px;
+  margin-left: 70px;
+}
+
+.overlay {
+  position: fixed;
+  width: 180px;
+  height: 180px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: black;
+  z-index: 90;
+}
+
+.overlay-game-over {
+  width: 604px;
+  height: 604px;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  z-index: 99;
+  margin-top: 120px;
+  margin-left: 70px;
+}
+
+.display-none {
+  display: none;
+}
+
+.grid-status-letter {
+  text-align: center; 
+  font-size: 110px;
+}
+
+.custom-center {
+  display: inline;
+  margin: 0 auto; 
+}
+
+/* Home */
+
+.home-wrapper {
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: 800;
+  border: 3px solid #79a9f7;
+  background-color: #d6e6ff;
+}
+
+.home-box {
+  margin-top: 50px;
+}
+
+.home-heading {
+  font-size: 60px;
+  height: 60px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home-heading-smaller {
+  font-size: 42px;
+}
+
+.home-subheading {
+  width: 50%;
+  height: 50px;
+  float: left;
+  font-size: 32px;
+}
+
+.player-input {
+  width: 46%;
+  margin-left: 2%;
+  height: 45px;
+  margin-top: 80px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.player-color {
+  width: 46%;
+  margin-left: 2%;
+  height: 45px;
+  margin-top: 40px;
+  text-align-last:center;
+}
+
+.home-sign {
+  width: 50%;
+  height: 180px;
+  float: left;
+  font-size: 180px;
+}
+
+.home-button {
+  width: 90%;
+  height: 80px;
+  margin-top: 75px;
+  margin-bottom: 25px;
+  background-color: #79a9f7;
+  color: white;
+  font-size: 40px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: 800;
+  border: 1px solid white;
+}
+
+/* Play */
+
+.play-info {
+  margin-top: 350px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.play-info-name {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+/* Game over */
+
+.gg-wrapper {
+  padding-top: 200px;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+  font-weight: 800;
+}
+
+.gg-heading {  
+  font-size: 48px;
+  height: 60px;
+  width: 100%;
+}
+
+.gg-winner {
+  font-size: 32px;
+  height: 50px;
+  width: 100%;
+}
+
+.gg-button {
+  background-color: white;
+  border: 1px solid lightgray;
+  width: 180px;
+  height: 60px;
+  margin-top: 50px;
+
+  background-color: #79a9f7;
+  color: white;
+  font-size: 24px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: 800;
+  border: 3px solid #79a9f7;
+}
+
+/* Scores */
+
+.scores-wrapper {
+  padding-top: 100px;
+  text-align: center;
+  color: #79a9f7;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.scores-heading {
+  font-size: 72px;
+  height: 100px;
+  width: 100%;
+  font-weight: 700;
+}
+
+.scores-table {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.scores-table td, .scores-table th {
+  width: 20%;
+}
+
+.scores-table th {
+  font-size: 24px;
+  padding-bottom: 25px;
+  text-shadow: none;
+}
+
+.scores-table td {
+  font-size: 20px;
+  padding-top: 15px;
+  color: black;
+  text-shadow: none;
+}
+
+.scores-link button {  
+  background-color: white;
+  border: 1px solid lightgray;
+  width: 180px;
+  height: 60px;
+  margin-top: 50px;
+
+  background-color: #79a9f7;
+  color: white;
+  font-size: 24px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: 800;
+  border: 3px solid #79a9f7;
+}
