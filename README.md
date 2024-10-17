@@ -1,5 +1,6 @@
 Push
 ssh
+gpg
 Commit
 
 Test1
