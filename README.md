@@ -1,14 +1,3 @@
-Push
-ssh
-gpg
-gpg2
-gpg4
-
-Commit
-
-Test1
-Prod test:
-Readme:
 node server.js
 and
 npm start
