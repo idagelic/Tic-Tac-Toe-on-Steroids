@@ -3,8 +3,8 @@ import Cell from './Cell.js';
 
 const colorsHex = {
     'Odaberi boju': '#000000',
-    'Plava': '#288ff7',
-    'Crvena': '#ff2b2b',
+    'Plava': '#00CED1',
+    'Crvena': '#FF6347',
     'Zelena': '#2bff6e',
     'Žuta': '#cccc00',
     'Ljubičasta': '#af3afc',
@@ -53,3 +53,4 @@ class Grid extends Component {
 }
 
 export default Grid;
+
