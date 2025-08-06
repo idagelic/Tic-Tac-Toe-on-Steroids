@@ -5,7 +5,7 @@ const allColors = ['Odaberi boju', 'Plava', 'Crvena', 'Zelena', 'Žuta', 'Ljubi�
 const colorsHex = {
     'Odaberi boju': '#000000',
     'Plava': '#00CED1',
-    'Crvena': '#ff2b2b',
+    'Crvena': '#FF6347',
     'Zelena': '#2bff6e',
     'Žuta': '#cccc00',
     'Ljubičasta': '#af3afc',
@@ -142,3 +142,4 @@ class Home extends Component {
 }
 
 export default Home;
+
