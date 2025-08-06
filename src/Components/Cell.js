@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 const colorsHex = {
     'Odaberi boju': '#000000',
     'Plava': '#288ff7',
-    'Crvena': '#ff2b2b',
+    'Crvena': '#FF6347',
     'Zelena': '#2bff6e',
     'Žuta': '#cccc00',
     'Ljubičasta': '#af3afc',
